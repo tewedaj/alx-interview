@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """there are 3 conditions if the size of the array is 0 then it can be opend
-    and  if it has size more than zero it has to have more than 0 size inorder
-    for the next array to be opend 
+    and  if it has size more than zero it has to have more than 0 size
 """
 
 
