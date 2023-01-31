@@ -20,8 +20,8 @@ def canUnlockAll(boxes):
             if val < len(boxes) and val != x:
                 """since each value is a key we use it to add value to our unlocked list
                 by doing that we can add the size of the unlocked list and we don't have to
-                worry about duplicates since douplicates will overide on them self instead
-                of adding on to the total value"""
+                worry about duplicates since douplicates will overide on them self
+                """
                 unlockedList[val] = val
         if len(unlockedList) == len(boxes):
             return True
