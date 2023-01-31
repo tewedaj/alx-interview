@@ -18,8 +18,8 @@ def canUnlockAll(boxes):
             unlockedList[x] = "always_unlockedList"
         for val in box:
             if val < len(boxes) and val != x:
-                """since each value is a key we use it to add value to our 
-                   unlocked list we can add the size of the unlocked list 
+                """since each value is a key we use it to add value to our
+                   unlocked list we can add the size of the unlocked list
                    and douplicates will overide on them self"""
                 unlockedList[val] = val
         if len(unlockedList) == len(boxes):
